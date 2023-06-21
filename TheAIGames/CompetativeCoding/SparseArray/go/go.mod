@@ -1,4 +1,4 @@
-module github.com/null-channel/the-ai-games/TheAIGames/CompetativeCoding/go
+module github.com/null-channel/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/go
 
 go 1.20
 

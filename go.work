@@ -1,3 +1,5 @@
 go 1.20
 
 use ./TheAIGames/CompetativeCoding/SparseArray/go/
+use ./TheAIGames/CompetativeCoding/MatrixRotation/go/
+use ./TheAIGames/CompetativeCoding/SubarrayDevision/go/
