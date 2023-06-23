@@ -12,8 +12,8 @@ type Person struct {
 }
 
 // This code should never be modified
-func get_last_name(p Person) String {
-	p.first_name
+func get_last_name(p Person) string {
+	return p.firstName
 }
 
 // Returns the sum of a vector
@@ -23,18 +23,18 @@ func sum_vec(vec []int) int {
 		res += vec[i]
 	}
 
-	fmt.Println("The first element is: {%d}", first)
+	fmt.Println("The first element is: {%d}", res)
 	return res
 }
 
 // Returns the sum of a vector
-func sum_vec(v []int) int {
+func sum_vec2(v []int) int {
 	res := 0
 	for i := 0; i < len(v); i++ {
 		res += 1
 	}
 
-	fmt.Println("The first element is: {%d}", first)
+	fmt.Println("The first element is: {%d}", res)
 	return res
 }
 
