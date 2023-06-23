@@ -2,18 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            // Use IntelliSense to find out which attributes exist for C# debugging
-            // Use hover for the description of the existing attributes
-            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/TheAIGames/CompetativeCoding/SparseArray/csharp/bin/Debug/net7.0/csharp.dll",
             "args": [],
             "cwd": "${workspaceFolder}/TheAIGames/CompetativeCoding/SparseArray/csharp",
-            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
         },
@@ -21,6 +16,30 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug swift (TheAIGames/ProjectComprehension/swift)",
+            "program": "${workspaceFolder:the-ai-games}/TheAIGames/ProjectComprehension/swift/.build/debug/swift",
+            "args": [],
+            "cwd": "${workspaceFolder:the-ai-games}/TheAIGames/ProjectComprehension/swift",
+            "preLaunchTask": "swift: Build Debug swift (TheAIGames/ProjectComprehension/swift)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release swift (TheAIGames/ProjectComprehension/swift)",
+            "program": "${workspaceFolder:the-ai-games}/TheAIGames/ProjectComprehension/swift/.build/release/swift",
+            "args": [],
+            "cwd": "${workspaceFolder:the-ai-games}/TheAIGames/ProjectComprehension/swift",
+            "preLaunchTask": "swift: Build Release swift (TheAIGames/ProjectComprehension/swift)"
         }
     ]
 }

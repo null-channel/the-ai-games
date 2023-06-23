@@ -3,11 +3,14 @@ AI Tests to test how well the AI's can assist you in writing configuration and t
 
 ## Kubernetes
 
-1. create a k8s deployment
+1. create a k8s nginx deployment
 1. create a k8s service to expose prior deployment
 
 
 ## Ansible
+
+
+## Terraform
 
 
 ## Nginx and haproxy

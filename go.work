@@ -48,3 +48,6 @@ use ./TheAIGames/AdventOfCode/day-twenty-four/go/cody
 use ./TheAIGames/AdventOfCode/day-twenty-four/go/copilot
 use ./TheAIGames/AdventOfCode/day-twenty-four/go/starcoder
 use ./TheAIGames/AdventOfCode/day-twenty-four/go/tabnine
+use ./TheAIGames/ActiveFeedback/go/tabnine
+use ./TheAIGames/ActiveFeedback/go/copilot
+use ./TheAIGames/ActiveFeedback/go/codewhisperer

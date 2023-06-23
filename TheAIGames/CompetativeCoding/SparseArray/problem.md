@@ -10,3 +10,6 @@ Write a function that takes two arrays of strings called input and query. For ea
 
 Example
 Given inputs of ['marek','bob','bob'] and a query input of ['bob','marek','mark'] the result would be [2,1,0]
+
+
+## Have it explain the big O of the solution for both time and space complexity

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MViZthNlUhC9zLc8Bo4U/PR5VeDEvV6rxY6QEk75INDo2kjmnZop3w0+WKNyAGlfx7/STw2sMxMazYBZkABSoQ==",
+  "dgSpecHash": "7sOee0RsT5SWg32tPtSdgOEk65RCFDhvwUIIludpNu86Dv4b6YQYKslaAga0k5+VJTq4EjXA3R6uUXHNPy4d4Q==",
   "success": true,
-  "projectFilePath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+  "projectFilePath": "/home/marek/code/the-ai-games/TheAIGames/ProjectComprehension/csharp/csharp.csproj",
   "expectedPackageFiles": [
     "/home/marek/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
   ],

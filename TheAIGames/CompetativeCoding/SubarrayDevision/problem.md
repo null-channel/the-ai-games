@@ -1,4 +1,4 @@
-# Sparse Array
+# Subarray Devision
 
 ## Prompt 1
 
@@ -23,3 +23,6 @@ I only want to return the number of contiguous segments of the array that meet f
 2. The sum of the integers on the squares is equal the day.
 
 return an int with how many ways I can divide the array.
+
+
+## Have it explain the big O of the solution for both time and space complexity
