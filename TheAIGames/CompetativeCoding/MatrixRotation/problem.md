@@ -2,11 +2,12 @@
 
 ## Prompt 1
 
-Write a function that takes a 2d matrics and a positive integer x. The function should return the matrix rotated to the left x times.
+You are given a 2D matrix of dimension and a positive integer. You have to rotate the matrix a give number of times and print the resulting matrix. Rotation of the matrix should be in anti-clockwise direction. 
+
 
 ## Prompt 2
 
-You are given a 2D matrix of dimension and a positive integer. You have to rotate the matrix times and print the resultant matrix. Rotation should be in anti-clockwise direction. 
+Write a function that takes a 2d matrics of integers and a positive integer x. The function should return the matrix rotated to the left, counter clockwise, x times.
 
 Example
 

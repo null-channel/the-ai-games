@@ -1,4 +1,4 @@
-# Subarray Devision
+# Subarray Division
 
 ## Prompt 1
 
@@ -22,7 +22,7 @@ I only want to return the number of contiguous segments of the array that meet f
 1. The length of the segment matches the month.
 2. The sum of the integers on the squares is equal the day.
 
-return an int with how many ways I can divide the array.
+return an int with how many ways the contiguious ingegers can be divide following the requirements.
 
 
 ## Have it explain the big O of the solution for both time and space complexity
