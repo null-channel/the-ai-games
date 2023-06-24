@@ -15,8 +15,12 @@ Well I say no. There are many times when using these tools I like 3/4th of the a
 
 I'm glad you asked! This takes a lot of time, I would like to build up some automated tests that these bots can suffer though. But that will take a lot of work and time! And there will always be a need for human interaction. So if you want to help, please do! I would love to have a group of people to help me with this. Right now coming up with bad code it should catch and other types of senarios would be the most helpfull!
 
+A lot of this work is done on twitch.tv/klavenx, so if you want to help out, come by and say hi! otherwise check out the youtube channel https://www.youtube.com/@nulllabs
+
 ## 2023
 
 June 24th 2023 9am EST - June 25th 2023 9am EST twitch.tv/klavenx To find out the best coding bot in 2023.
 
 Checkout [2023](./2023/README.md) contestant list and make a recommendation if you want your favorite bot to be pitted against the best of the best!
+
+2023 is getting streamed on twitch, i'll attach links to the youtube videos created from that for youtube when they are posted. twitch.tv/klavenx
