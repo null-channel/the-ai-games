@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+      "projectUniqueName": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/chatgpt/csharp.csproj",
       "projectName": "csharp",
-      "projectPath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+      "projectPath": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/chatgpt/csharp.csproj",
       "packagesPath": "/home/marek/.nuget/packages/",
-      "outputPath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/obj/",
+      "outputPath": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/chatgpt/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/marek/.nuget/NuGet/NuGet.Config"

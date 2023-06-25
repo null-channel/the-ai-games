@@ -1,0 +1,15 @@
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/bin/Debug/net7.0/csharp
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/bin/Debug/net7.0/csharp.deps.json
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/bin/Debug/net7.0/csharp.runtimeconfig.json
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/bin/Debug/net7.0/csharp.dll
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/bin/Debug/net7.0/csharp.pdb
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.csproj.AssemblyReference.cache
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.AssemblyInfoInputs.cache
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.AssemblyInfo.cs
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.csproj.CoreCompileInputs.cache
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.dll
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/refint/csharp.dll
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.pdb
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/csharp.genruntimeconfig.cache
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/cody/obj/Debug/net7.0/ref/csharp.dll

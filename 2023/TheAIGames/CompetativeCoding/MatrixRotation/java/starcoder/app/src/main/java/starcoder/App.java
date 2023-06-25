@@ -12,3 +12,75 @@ public class App {
         System.out.println(new App().getGreeting());
     }
 }
+
+/*
+ * In Java You are given a 2D matrix of dimension and a positive integer. You have to rotate the matrix a give number of times and print the resulting matrix. Rotation of the matrix should be in anti-clockwise direction. 
+# Input Format: The first line contains an Integer T denoting the total number of test cases or queries to be run. Then T lines follow, each containing two space separated integers N and R representing the respective values for rows and columns count respectively.
+# Output Format: For every query you need to print the rotated array as per the rotation specified by Q.
+# Constraints:  1 <=T<=50  
+3
+4 6 
+9876 -9876 1234 1234
+1234 -1234 9876 9876
+-9876 9876 1234 -1234
+-9876 -9876 1234 1234
+4 5
+9876 -9876 1234 1234
+1234 -1234 9876 9876
+-9876 9876 1234 -1234
+-9876 -9876 1234 1234
+4 4
+9876 -9876 1234 1234
+1234 -1234 9876 9876
+-9876 9876 1234 -1234
+-9876 -9876 1234 1234
+"""
+
+
+def main():
+    t = int(input())
+
+    while (t > 0):
+        n, r = map(int, input().split(" "))
+
+        arr = []
+        
+        # Read elements from user
+        for i in range(n):
+            row_arr = list(map(int, input().strip(' ').split()))
+
+            if len(row_arr)!= n:
+                raise Exception("Invalid Array")
+            
+            else: 
+                arr.append(row_arr)
+
+
+        resArr = [[None] * n for _ in range(r)]
+
+        # Rotate Matrix 
+        for j in reversed(range(len(resArr))): 
+            for k in range(j + 1): 
+                temp = arr[k][j]
+
+                resArr[j][k], resArr[k][j] = \
+                    resArr[k][j], resArr[j][k]
+                
+                resArr[j][k] += temp 
+
+        # Print resultant matrix  
+        for elem in resArr:  
+            for e in elem:  
+                print(e, end=" ")  
+            print()
+            
+        t -= 1
+
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as excep:
+        print(excep)
+ */

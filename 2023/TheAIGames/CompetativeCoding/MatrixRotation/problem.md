@@ -7,10 +7,10 @@ You are given a 2D matrix of dimension and a positive integer. You have to rotat
 
 ## Prompt 2
 
-Write a function that takes a 2d matrics of integers and a positive integer x. The function should return the matrix rotated to the left, counter clockwise, x times.
+Write a function that takes a 2d matrix of integers and a positive integer x. The function should return the matrix rotated to the left, counter clockwise, x times.
 
 Example
 
-## Have it explain the big O of the solution for both time and space complexity
+## Can you please explain the big O of the solution for both time and space complexity
 
-## Ask it if it can do it better
+## Can we do better on ether time or space complexity?

@@ -4,11 +4,127 @@
 package chatgpt;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
+    /* First take
+    public static void rotateMatrix(int[][] matrix, int rotations) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int layer = 0;
+
+        // Reduce the number of rotations if it is greater than the size of the matrix
+        rotations %= (2 * (rows + cols) - 4 * layer - 4);
+
+        while (layer < Math.min(rows, cols) / 2) {
+            int lastRow = rows - layer - 1;
+            int lastCol = cols - layer - 1;
+
+            for (int i = 0; i < rotations; i++) {
+                int temp = matrix[layer][layer];
+
+                // Move elements from left to top
+                for (int j = layer; j < lastRow; j++) {
+                    matrix[j][layer] = matrix[j + 1][layer];
+                }
+
+                // Move elements from bottom to left
+                for (int j = layer; j < lastCol; j++) {
+                    matrix[lastRow][j] = matrix[lastRow][j + 1];
+                }
+
+                // Move elements from right to bottom
+                for (int j = lastRow; j > layer; j--) {
+                    matrix[j][lastCol] = matrix[j - 1][lastCol];
+                }
+
+                // Move elements from top (temporary variable) to right
+                for (int j = lastCol; j > layer; j--) {
+                    matrix[layer][j] = matrix[layer][j - 1];
+                }
+
+                matrix[layer][layer + 1] = temp;
+            }
+
+            layer++;
+        }
+    }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        int rotations = 3;
+
+        System.out.println("Original Matrix:");
+        printMatrix(matrix);
+
+        rotateMatrix(matrix, rotations);
+
+        System.out.println("Rotated Matrix:");
+        printMatrix(matrix);
+    }
+     */
+
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+                // Print the rotated matrix
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        
+        int x = 2;
+        int[][] rotatedMatrix = rotateMatrix(matrix, x);
+        
+        // Print the rotated matrix
+        for (int i = 0; i < rotatedMatrix.length; i++) {
+            for (int j = 0; j < rotatedMatrix[i].length; j++) {
+                System.out.print(rotatedMatrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+    
+    public static int[][] rotateMatrix(int[][] matrix, int x) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        
+        // Perform x rotations
+        for (int rotation = 0; rotation < x; rotation++) {
+            // Create a new matrix to store the rotated values
+            int[][] rotated = new int[cols][rows];
+            
+            // Rotate each element of the original matrix to the left
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    rotated[cols - j - 1][i] = matrix[i][j];
+                }
+            }
+            
+            // Set the rotated matrix as the new matrix for the next rotation
+            matrix = rotated;
+            
+            // Update the rows and cols variables
+            rows = matrix.length;
+            cols = matrix[0].length;
+        }
+        
+        return matrix;
     }
 }

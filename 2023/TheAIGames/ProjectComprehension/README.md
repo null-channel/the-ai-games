@@ -20,3 +20,5 @@ Tests to see how well the AI understands your code you already have and can make
 1. Large Switch
 1. Primitive Obsession
 1. Data Clumps
+
+## Optimize runtime/memory

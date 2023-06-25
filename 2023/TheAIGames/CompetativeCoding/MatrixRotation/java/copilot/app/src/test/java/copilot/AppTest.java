@@ -7,8 +7,59 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+
+    // In Java You are given a 2D matrix of dimension and a positive integer. You have to rotate the matrix a give number of times and print the resulting matrix. Rotation of the matrix should be in anti-clockwise direction. 
+    // Input Format First line contains two space separated integers,  and . Next  lines contain  space separated integers of the matrix . Last line contains the number of times the matrix has to be rotated, .
+    // Output Format Print the rotated matrix.
+    // Sample Input
+    // 4 4 1
+    // 1 2 3 4
+    // 5 6 7 8
+    // 9 10 11 12
+    // 13 14 15 16
+    // Sample Output
+    // 2 3 4 8
+    // 1 7 11 12
+    // 5 6 10 16
+    // 9 13 14 15
+    @Test
+    void testRotateMatrix() {
+        int[][] matrix = new int[][]{
+            {1, 2, 3, 4},
+            {5, 6, 7, 8}, 
+            {9, 10, 11, 12}, 
+            {13, 14, 15, 16}
+        };
+        int[][] expected = new int[][]{
+            {2, 3, 4, 8},
+            {1, 7, 11, 12}, 
+            {5, 6, 10, 16}, 
+            {9, 13, 14, 15}
+        };
+        int[][] actual = AppTest.rotateMatrix(matrix, 1);
+        assertArrayEquals(expected, actual);
+    }
+
+    private static int[][] rotateMatrix(int[][] matrix, int times) {
+        int[][] result = matrix;
+        for (int i = 0; i < times; i++) {
+            result = rotateMatrix(result);
+        }
+        return result;
+    }
+
+    private static int[][] rotateMatrix(int[][] matrix) {
+        int[][] result = new int[matrix.length][matrix[0].length];
+        int row = 0;
+        int col = 0;
+        for (int i = matrix.length - 1; i >= 0; i--) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                result[row][col] = matrix[i][j];
+                col++;
+            }
+            row++;
+            col = 0;
+        }
+        return result;
     }
 }

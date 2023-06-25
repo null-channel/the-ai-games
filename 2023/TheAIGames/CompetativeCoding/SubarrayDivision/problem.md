@@ -13,8 +13,6 @@ Determine how many ways I can divide the chocolate.
 
 ## Prompt 2
 
-Word it differently/better... :D
-
 Write a function that takes an array of contiguious integers and a birthday in the form of mm/dd/yyyy.
 
 I only want to return the number of contiguous segments of the array that meet following requirements:

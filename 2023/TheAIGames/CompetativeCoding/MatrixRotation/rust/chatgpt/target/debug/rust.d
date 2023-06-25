@@ -1,0 +1,1 @@
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/rust/chatgpt/target/debug/rust: /home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/rust/chatgpt/src/main.rs

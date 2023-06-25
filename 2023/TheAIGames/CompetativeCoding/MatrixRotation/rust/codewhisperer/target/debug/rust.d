@@ -1,0 +1,1 @@
+/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/rust/codewhisperer/target/debug/rust: /home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/rust/codewhisperer/src/main.rs

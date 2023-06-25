@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj": {}
+    "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/csharp.csproj": {}
   },
   "projects": {
-    "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj": {
+    "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+        "projectUniqueName": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/csharp.csproj",
         "projectName": "csharp",
-        "projectPath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+        "projectPath": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/csharp.csproj",
         "packagesPath": "/home/marek/.nuget/packages/",
-        "outputPath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/obj/",
+        "outputPath": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marek/.nuget/NuGet/NuGet.Config"

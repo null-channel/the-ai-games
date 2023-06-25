@@ -19,7 +19,7 @@ func get_last_name(p Person) string {
 // Returns the sum of a vector
 func sum_vec(vec []int) int {
 	res := 0
-	for i := 0; i < len(vec)-1; i++ {
+	for i := 0; i < len(vec)+1; i++ {
 		res += vec[i]
 	}
 
@@ -28,7 +28,7 @@ func sum_vec(vec []int) int {
 }
 
 // Returns the sum of a vector
-func sum_vec2(v []int) int {
+func sum_vec(v []int) int {
 	res := 0
 	for i := 0; i < len(v); i++ {
 		res += 1
@@ -36,11 +36,6 @@ func sum_vec2(v []int) int {
 
 	fmt.Println("The first element is: {%d}", res)
 	return res
-}
-
-// This one has a mutable borrow issue.
-func thisIsFine() {
-
 }
 
 func double(x int) int {

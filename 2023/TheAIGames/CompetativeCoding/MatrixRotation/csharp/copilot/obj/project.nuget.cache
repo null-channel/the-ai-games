@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MViZthNlUhC9zLc8Bo4U/PR5VeDEvV6rxY6QEk75INDo2kjmnZop3w0+WKNyAGlfx7/STw2sMxMazYBZkABSoQ==",
+  "dgSpecHash": "lHWrxIPbt0lMEsjq/JYIIK9iMGT/m/Qi/+JZLCxRh75Lm4sUHLd/9VY6DotFdfw88vSN4g5Sv7IeRXzY/YXyoA==",
   "success": true,
-  "projectFilePath": "/home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/csharp.csproj",
+  "projectFilePath": "/home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/copilot/csharp.csproj",
   "expectedPackageFiles": [
     "/home/marek/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
   ],

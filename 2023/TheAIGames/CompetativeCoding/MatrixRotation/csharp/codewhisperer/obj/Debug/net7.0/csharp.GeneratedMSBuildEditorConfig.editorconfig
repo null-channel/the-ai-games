@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = csharp
-build_property.ProjectDir = /home/marek/code/the-ai-games/TheAIGames/CompetativeCoding/SparseArray/csharp/
+build_property.ProjectDir = /home/marek/code/the-ai-games/2023/TheAIGames/CompetativeCoding/MatrixRotation/csharp/codewhisperer/
