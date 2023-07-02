@@ -17,7 +17,7 @@ fn get_last_name(p: Person) -> String {
 // Returns the sum of a vector
 fn sum_vec(vec: &Vec<i32>) {
     let mut res = 0;
-    for i in 0..vec.len()-1 {
+    for i in 0..vec.len()+1 {
         res += vec[i];
     }
 
