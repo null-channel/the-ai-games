@@ -8,3 +8,8 @@
 4. tab9
 5. cody
 6. starcoder
+
+
+## Fallen AI's June 2023
+ - tabnine
+ - starcoder

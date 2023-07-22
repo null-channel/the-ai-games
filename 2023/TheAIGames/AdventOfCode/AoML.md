@@ -68,7 +68,14 @@ Output:
 
 ## Part 3:
 
-It turns out that New York city blocks are HUGE and people now want you to drop them off at specific addresses instead of the block corners! When will their demands stop! Thankfully this new logic is equally as simple as the previous steps to get your autonomous car dropping people off at the right place. Each of the new digits in the destination address represents the starting index where to check in the street sign as well as the minimum number of streets you must skip before checking if it’s the street to turn down! Remember, if the starting index is longer than the word you must wrap. Indexes are all 0 based meaning that a value of 1 means to start on the second character. Each time you turn you use the next number, once all the numbers are used up you repeat the numbers from the starting positions. All previous requirements hold true. So if the address is a digit of 2, it means that first you skip two streets before looking for a road sign with the right character in the right place. When checking the character locations the first word you would check the third position, and the second word you would check the 4th position and so on!
+It turns out that New York city blocks are HUGE and people now want you to drop them off at specific addresses instead of the block corners! When will their demands stop! Thankfully this new logic is equally as simple as the previous steps to get your autonomous car dropping people off at the right place. The destination address now has two parts, the first part is the building number and the second part is the street name. The building number is a single number that can get as large as 99999 and the street name is the rest of the first line. There are no numbers in the street name.
+
+Each of the new digits in the destination address affect your directions in two ways. As you itterate over the characters in the street name of the destination, so too should you iterate over the digits in the building number. Each time you come across a digit in the building number you should skip that many streets before checking if the next street name is the correct street to turn onto. If the building number is shorter than the street name you should wrap around to the start of the building number. 
+
+Not only does this digit cause you to skip that many streets before looking for the destination street, but it also effects the indexing of your character search, initially if it was the second word you would check the character in the second spot, but if the building number was 2 you would check the character in the 4th spot! If the word happens to be shorter then the index you should wrap around to the start of the word as usual!
+
+#### Note:
+The street name can have spaces in it, but the building number can not! Also, the subsequent list of street names does not have a building number, just the street name so the only thing changing in the list is the destination address!
 
 #### Example:
 Inputs:
